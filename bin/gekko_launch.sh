@@ -15,4 +15,4 @@ if [ -f $current_log ]; then
 fi
 
 # finally launch gekko and log output to log file as well as stdout
-node gekko config="config/user/$1.js" 2>&1 | tee $current_log
+node gekko --config config.js 2>&1 | tee $current_log
