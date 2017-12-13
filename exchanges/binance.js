@@ -466,16 +466,6 @@ Trader.getCapabilities = function() {
         minimalOrder: { amount: 0.001, unit: 'asset' },
         precision: 0.000001,
       },
-      {
-        pair: ['BTC', 'XMR'],
-        minimalOrder: { amount: 0.001, unit: 'asset' },
-        precision: 0.00000001,
-      },
-      {
-        pair: ['BTC', 'XRP'],
-        minimalOrder: { amount: 0.001, unit: 'asset' },
-        precision: 0.00000001,
-      },
       //Tradeable againt BNB
       {
         pair: ['BNB', 'BCC'],
