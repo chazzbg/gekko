@@ -1,1 +1,1 @@
-tail -f ~/gekko/log/gekko_log.$1.txt
+tail -f ~/gekko/log/gekko_log.root.txt
