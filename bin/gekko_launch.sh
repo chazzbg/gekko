@@ -3,11 +3,11 @@ cd ~/gekko
 
 # zip previous log files for this config
 now="`date +%Y%m%d%H%M%S`"
-current_log=log/gekko_log.$1.txt
-archive_log=log/gekko_log.$1.$now.txt
+current_log=log/gekko_log.root.txt
+archive_log=log/gekko_log.root.$now.txt
 
 if [ -f $current_log ]; then
-    mv log/gekko_log.$1.txt $archive_log
+    mv log/gekko_log.root.txt $archive_log
     zip -vu log/gekko_logs.zip $archive_log
 
     # remove raw text files now that they're zipped
